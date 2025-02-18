@@ -45,6 +45,9 @@
             background-color: rgba(255, 255, 255, 0.8);
             padding: 20px;
             color: #000;
+            max-width: 1200px; /* 最大幅を設定 */
+            margin-left: auto; /* 左右中央揃え */
+            margin-right: auto; /* 左右中央揃え */
         }
 
         h2 {
@@ -70,6 +73,9 @@
             padding: 20px;
             background-color: rgba(255, 255, 255, 0.9);
             margin-top: 20px;
+            max-width: 1200px; /* 最大幅を設定 */
+            margin-left: auto; /* 左右中央揃え */
+            margin-right: auto; /* 左右中央揃え */
         }
         
         .content-block h3 {
