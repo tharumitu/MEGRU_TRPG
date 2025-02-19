@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
@@ -9,8 +8,8 @@
             font-family: sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
-            color: #000;
+            background-color: #000;
+            color: #fff;
         }
         .container {
             display: flex;
@@ -20,11 +19,13 @@
             background-color: #ccc;
             padding: 15px;
             min-height: 100vh;
+            color: #000;
         }
         .content {
             flex-grow: 1;
             background-color: #fff;
             padding: 20px;
+            color: #000;
         }
         h2 {
             border-bottom: 1px solid #999;
@@ -95,29 +96,6 @@
                     <li><strong>「時の変遷」フェーズ：</strong> 過去の行動が影響を及ぼし、状況が変化する。</li>
                     <li><strong>「旅の終わり」フェーズ：</strong> 旅の果てに何を残すのかを決める。</li>
                 </ul>
-            </section>
-            <section id="scenario">
-                <h2>サンプルシナリオ「黎明の川」</h2>
-                <p>
-                    旅人たちは広大な平原を進む中で、突如として大河が生まれる瞬間を目撃する。
-                    しかし、その源流には「時の淀み」と呼ばれる不思議な領域が広がっていた。
-                </p>
-                <h4>D6判定例</h4>
-                <ul>
-                    <li>1~2：川は枯れ果て、荒野が広がる。</li>
-                    <li>3~4：川は細々と流れ、旅人たちは小さなオアシスを発見する。</li>
-                    <li>5~6：大河が勢いよく流れ、周囲に豊かな土地が生まれる。</li>
-                </ul>
-                <p>
-                    旅人たちは、この地をどう導くのか？そして、旅の終わりには何を残すのか？
-                </p>
-                <p>
-                    このTRPGでは、プレイヤーの選択が直接世界の姿を変えていきます。
-                    その場限りの偶然ではなく、あなたの足跡が未来を築いていくのです。
-                </p>
-                <p>
-                    さあ、時を巡る旅へ出かけましょう。
-                </p>
             </section>
         </main>
     </div>
