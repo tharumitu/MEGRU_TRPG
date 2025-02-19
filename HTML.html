@@ -44,7 +44,7 @@
         main {
             margin-left: 220px; /* サイドバーの横幅分のマージン */
             padding: 20px;
-            flex-grow: 1; /* メインコンテンツを伸ばしてサイドバーと並べる */
+            flex-grow: 1;
         }
 
         section {
@@ -67,35 +67,8 @@
             color: #000;
             padding: 10px;
             text-align: center;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 10px auto;
-        }
-
-        .content-block {
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.9);
-            margin-top: 20px;
-            max-width: 1200px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .content-block h3 {
-            margin-bottom: 15px;
-        }
-
-        .content-block ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .content-block li {
-            margin-bottom: 10px;
+            position: relative;
+            width: 100%;
         }
     </style>
 </head>
@@ -113,63 +86,24 @@
     </nav>
 
     <main>
-        <section id="about">
-            <h2>ゲーム概要</h2>
-            <p>
-                『巡る刻の旅人』は、プレイヤーが「時巡りの旅人」となり、まだ見ぬ世界へ足を踏み入れるTRPGです。
-                歩みを進めるたびに大地が形作られ、川が流れ、山がそびえ、文明が生まれていく。この旅がどこへ向かうのか、それは旅人たちの選択次第。
-            </p>
-        </section>
-
-        <section id="rules">
-            <h2>ルール</h2>
-            <div class="content-block">
-                <h3>基本システム</h3>
-                <ul>
-                    <li><strong>判定方法：</strong>D6を振り、結果に応じて行動の成否や世界の変化が決まる。</li>
-                    <li><strong>探索と発展：</strong>旅を進めるたびに新たな土地や出来事が発生し、マップが広がる。</li>
-                    <li><strong>「刻の軌跡」システム：</strong>プレイヤーの選択により、地形・歴史・文明が変化。</li>
-                    <li><strong>時間の流れ：</strong>ゲームが進むと、世界に「時の変遷」が訪れ、旅の終わりが近づく。</li>
-                </ul>
-            </div>
-        </section>
-
         <section id="character">
             <h2>キャラクター</h2>
-            <div class="content-block">
+            <div>
                 <h3>キャラクター作成</h3>
+                <p><strong>時巡りの旅人（Time Wanderer）</strong><br>
+                あなたは旅人となって新世界を旅する。世界の狭間から生まれた存在。</p>
+                <p><strong>ステータス</strong></p>
                 <ul>
-                    <li><strong>時巡りの旅人（Time Wanderer）</strong>: 世界の狭間から現れた存在。</li>
-                    <li><strong>ステータス:</strong> 体力（STR）、知恵（KNW）、感性（PER）、運命（FAT）</li>
-                    <li><strong>キャラ作成方法:</strong> 各ステータスにD6を1回ずつ振り、その値を割り振る。</li>
+                    <li><strong>STR</strong>（身体）：体の丈夫さや筋力などを表す。困難は己の拳で砕くのみ。</li>
+                    <li><strong>INT</strong>（知恵）：知能の良さを表す。知識があればさまざまなものを理解できるだろう。</li>
+                    <li><strong>PER</strong>（感性）：感性が優れていれば、生まれる世界も完成に長けたものになるだろう。</li>
+                    <li><strong>FAT</strong>（運命）：運命が優れていれば、あなたの旅はきっと素晴らしいものになる。</li>
                 </ul>
+                <p><strong>旅人の作成方法</strong></p>
+                <p>まず運命の値を決める。1d4ダイスを振り、その値をあなたの運命値とする。<br>
+                その他のステータスは運命値の分だけ6面ダイスを振る。運命値が1なら1d6、2なら2d6を振る。</p>
             </div>
         </section>
-
-        <section id="scenarios">
-            <h2>シナリオ</h2>
-            <div class="content-block">
-                <h3>サンプルシナリオ</h3>
-                <p>ここにサンプルシナリオが入ります。ダウンロード可能なリンクや詳細を加えましょう。</p>
-            </div>
-        </section>
-
-        <section id="blog">
-            <h2>ブログ・ニュース</h2>
-            <div class="content-block">
-                <h3>開発進捗</h3>
-                <p>最新の進捗情報や開発の裏話など、ブログ形式で更新していきます。</p>
-            </div>
-        </section>
-
-        <section id="community">
-            <h2>コミュニティ</h2>
-            <div class="content-block">
-                <h3>SNSリンク</h3>
-                <p>公式SNSアカウントやフォーラムのリンクを掲載しましょう。</p>
-            </div>
-        </section>
-
     </main>
 
     <footer>
