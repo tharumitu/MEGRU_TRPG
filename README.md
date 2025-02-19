@@ -21,7 +21,7 @@
             left: 0;
             bottom: 0;
             background-color: rgba(255, 255, 255, 0.8);
-            padding: 20px;
+            padding: 10%;
             color: #000;
         }
 
