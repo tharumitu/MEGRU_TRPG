@@ -11,12 +11,17 @@
             padding: 0;
             background-color: #000;
             color: #fff;
+            display: flex;
         }
 
-        header {
+        nav {
+            width: 200px; /* サイドバーの幅 */
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
             background-color: rgba(255, 255, 255, 0.8);
             padding: 20px;
-            text-align: center;
             color: #000;
         }
 
@@ -27,17 +32,19 @@
         }
 
         nav li {
-            display: inline;
-            margin: 0 10px;
+            margin-bottom: 10px;
         }
 
         nav a {
             color: #000;
             text-decoration: none;
+            font-size: 1.2rem;
         }
 
         main {
+            margin-left: 220px; /* サイドバーの横幅分のマージン */
             padding: 20px;
+            flex-grow: 1; /* メインコンテンツを伸ばしてサイドバーと並べる */
         }
 
         section {
@@ -45,9 +52,9 @@
             background-color: rgba(255, 255, 255, 0.8);
             padding: 20px;
             color: #000;
-            max-width: 1200px; /* 最大幅を設定 */
-            margin-left: auto; /* 左右中央揃え */
-            margin-right: auto; /* 左右中央揃え */
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         h2 {
@@ -73,39 +80,37 @@
             padding: 20px;
             background-color: rgba(255, 255, 255, 0.9);
             margin-top: 20px;
-            max-width: 1200px; /* 最大幅を設定 */
-            margin-left: auto; /* 左右中央揃え */
-            margin-right: auto; /* 左右中央揃え */
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
         }
-        
+
         .content-block h3 {
             margin-bottom: 15px;
         }
-        
+
         .content-block ul {
             list-style: none;
             padding: 0;
         }
-        
+
         .content-block li {
             margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>巡る刻の旅人</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">ゲーム概要</a></li>
-                <li><a href="#rules">ルール</a></li>
-                <li><a href="#character">キャラクター</a></li>
-                <li><a href="#scenarios">シナリオ</a></li>
-                <li><a href="#blog">ブログ・ニュース</a></li>
-                <li><a href="#community">コミュニティ</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <h2>目次</h2>
+        <ul>
+            <li><a href="#about">ゲーム概要</a></li>
+            <li><a href="#rules">ルール</a></li>
+            <li><a href="#character">キャラクター</a></li>
+            <li><a href="#scenarios">シナリオ</a></li>
+            <li><a href="#blog">ブログ・ニュース</a></li>
+            <li><a href="#community">コミュニティ</a></li>
+        </ul>
+    </nav>
 
     <main>
         <section id="about">
